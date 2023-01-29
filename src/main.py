@@ -5,7 +5,6 @@ from src.connection import query
 
 app = FastAPI()
 
-
 class User(BaseModel):
     """User BaseModel"""
     USER_ID: int

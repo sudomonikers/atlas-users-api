@@ -8,6 +8,7 @@ fastapi = "*"
 mysql-connector-python = "*"
 uvicorn = "*"
 python-dotenv = "*"
+mangum = "*"
 
 [dev-packages]
 

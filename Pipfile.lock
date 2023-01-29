@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1d38312279175e66a6b7f90112da6664286e836a82f601f89bc1172a3f141be7"
+            "sha256": "51e32b3deeb44440a33cbb5618587e276c91991db236fcbca60ee99606b54011"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,6 +55,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==3.4"
+        },
+        "mangum": {
+            "hashes": [
+                "sha256:5b4e26375e12eed051687670466d17968f8b74beecaca432edd4eb4127f78509",
+                "sha256:f00be705605bc4793958df62e4d249abf58d254c39d90bb410d069570206f4a2"
+            ],
+            "index": "pypi",
+            "version": "==0.17.0"
         },
         "mysql-connector-python": {
             "hashes": [
