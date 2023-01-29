@@ -1,0 +1,7 @@
+To run this api locally, run 
+pipenv install 
+
+then create a .env file in the root directory, copy dev environment variables from the lambda 
+
+then run 
+pipenv run start
