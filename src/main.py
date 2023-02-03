@@ -11,9 +11,12 @@ class User(BaseModel):
     FIRST_NAME: Union[str, None] = None
     LAST_NAME: Union[str, None] = None
 
+@app.get('/')
+def get_root():
+    return 'hello sir'
 
 @app.get("/users")
 def get_users():
     results: User = query('SELECT * FROM users WHERE FIRST_NAME = %s OR LAST_NAME = %s', ['ANDREW', 'LI'])
-    print(results)    
+    print('hello')    
     return results

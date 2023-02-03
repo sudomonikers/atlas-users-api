@@ -1,1 +1,4 @@
 .env
+dist
+deployment-package.zip
+.DS_Store
